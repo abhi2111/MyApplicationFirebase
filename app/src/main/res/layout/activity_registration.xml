@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registration"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.abhujeeth.myapplicationfirebase.Registration">
+
+
+    <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/editone" />
+
+            <Button
+                android:text="Register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edittwo"
+                android:layout_alignLeft="@+id/edittwo"
+                android:layout_alignStart="@+id/edittwo"
+                android:layout_marginTop="55dp"
+                android:id="@+id/button_register" />
+
+            <TextView
+                android:text="Password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="53dp"
+                android:textStyle="bold"
+                android:id="@+id/textView6"
+                android:layout_below="@+id/editone"
+                android:layout_alignRight="@+id/textView5"
+                android:layout_alignEnd="@+id/textView5" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/edittwo"
+                android:layout_alignBaseline="@+id/textView6"
+                android:layout_alignBottom="@+id/textView6"
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:text="Email Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"
+                android:textStyle="bold"
+                android:id="@+id/textView5"
+                android:layout_alignBaseline="@+id/editone"
+                android:layout_alignBottom="@+id/editone"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
