@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/cardview_light_background"
+    android:background="@color/colorAccent"
     android:clickable="true"
     tools:context="com.example.abhujeeth.myapplicationfirebase.FragmentResults">
 
@@ -24,6 +24,7 @@
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_marginTop="100dp"
-        android:layout_height="357dp"
-        android:layout_below="@+id/spinner"/>
+        android:layout_height="match_parent"
+        android:layout_below="@+id/spinner"
+        android:id="@+id/recyclerviewone"/>
 </FrameLayout>

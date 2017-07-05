@@ -30,6 +30,7 @@ public class SpinnerAdapter extends ArrayAdapter {
 
     }
 
+    @Override
     public int getCount()
     {
         return objs.size();

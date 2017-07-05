@@ -8,12 +8,14 @@ public class FragResultsModelClass {
 
    private int imageid;
     private String text;
+    private String admitclas;
 
 
-    public FragResultsModelClass(int imageid,String text)
+    public FragResultsModelClass(int imageid,String text,String admitclass)
     {
         this.imageid=imageid;
         this.text=text;
+        this.admitclas=admitclass;
     }
 
     public int getImageid()
@@ -26,6 +28,10 @@ public class FragResultsModelClass {
         return text;
     }
 
+    public String getAdmitclas()
+    {
+        return admitclas;
+    }
 
 
 
